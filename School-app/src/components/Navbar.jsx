@@ -1,7 +1,7 @@
 import { React } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import Logo from '../../Assets/Logo.svg';
+import Logo from '../assets/logo.jpeg';
 
 const buttonStyle = {
 	letterSpacing: 1,
@@ -97,22 +97,22 @@ const NavbarComponent = () => {
 						>
 							Product & Services
 						</NavLink>
-						<NavHashLink
+						<NavLink
 							to='/#howItWorks'
 							onMouseEnter={handleMouseEnter}
 							onMouseLeave={handleMouseLeave}
 							className='text-decoration-none text-dark p-0'
 						>
 							How it Works
-						</NavHashLink>
-						<NavHashLink
+						</NavLink>
+						<NavLink
 							to='/#price'
 							onMouseEnter={handleMouseEnter}
 							onMouseLeave={handleMouseLeave}
 							className='text-decoration-none text-dark p-0'
 						>
 							Pricing
-						</NavHashLink>
+						</NavLink>
 						<NavLink
 							to='/Faqpage'
 							className={hover}
@@ -130,7 +130,7 @@ const NavbarComponent = () => {
 							FAQs
 						</NavLink>
 
-						<NavHashLink
+						<NavLink
 							smooth
 							to='/#contactUs'
 							onMouseEnter={handleMouseEnter}
@@ -138,7 +138,7 @@ const NavbarComponent = () => {
 							className='text-decoration-none'
 						>
 							<Nav className='text-dark p-0'>Contact Us</Nav>
-						</NavHashLink>
+						</NavLink>
 
 						<Link
 							to='/login'
