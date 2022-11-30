@@ -1,0 +1,28 @@
+.masterForm,
+.formLogo {
+  max-width: 37rem;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 480px) {
+  .masterForm,
+  .formLogo {
+    width: 25rem;
+    margin: 0 auto;
+  }
+}
+/* Extra small devices */
+
+@media only screen and (max-width: 375px) {
+  .form-width,
+  .formLogo {
+    width: 19rem;
+    margin: 0 auto;
+  }
+}
+.MultiStepLabel small {
+  font-size: 14px;
+}
+.buttonClass .buttonHover:hover {
+  border: none !important;
+}
